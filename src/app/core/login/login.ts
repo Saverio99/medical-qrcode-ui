@@ -25,13 +25,13 @@ import { AuthService } from './../../services/auth.service';
             <div>
               <mat-form-field>
                 <mat-label>Username</mat-label>
-                <input matInput formControlName="username" placeholder="username" />
+                <input matInput type="text" formControlName="username" placeholder="username" />
               </mat-form-field>
             </div>
             <div>
               <mat-form-field>
                 <mat-label>Password</mat-label>
-                <input matInput formControlName="password" placeholder="password" />
+                <input matInput type="password" formControlName="password" placeholder="password" />
               </mat-form-field>
             </div>
             <div class="button-container">
